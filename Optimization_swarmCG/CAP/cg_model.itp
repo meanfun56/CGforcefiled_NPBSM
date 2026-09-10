@@ -1,0 +1,73 @@
+[ moleculetype ]
+; molname        nrexcl
+CAP               1
+
+
+[ atoms ] 
+; id type   resnr   residue  atom   cgnr    charge
+
+ 1      C1     1      CAP     PA1    1      0.00000
+ 2     TC5     1      CAP     PA2    2      0.00000
+ 3      C1     1      CAP     PA3    3      0.00000
+ 4    TN3a     1      CAP     PA4    4      0.00000
+ 5    TN3d     1      CAP     PA5    5      0.00000
+ 6     TC5     1      CAP     PA6    6      0.00000
+ 7     TC5     1      CAP     PA7    7      0.00000
+ 8    TN1a     1      CAP     PA8    8      0.00000
+ 9     SP1     1      CAP     PA9    9      0.00000
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond group 1
+    1     2       1        0         0           ; 
+
+; bond group 2
+    2     3       1        0         0           ; 
+
+; bond group 3
+    3     4       1        0         0           ; 
+
+; bond group 4
+    4     5       1        0         0           ; 
+
+; bond group 5
+    5     6       1        0         0           ; 
+
+; bond group 6
+    7     8       1        0         0           ; 
+
+[ constraints ]
+;   i     j   funct   length   
+
+; constraint group 1
+    6     7       1        0         ; 
+
+; constraint group 2
+    7     9       1        0         ; 
+
+; constraint group 3
+    6     9       1        0         ; 
+
+
+[ angles ]
+;   i     j     k    funct     angle   force.c.
+
+; angle group 1
+    5     6     7      2       0         0           ; 
+
+; angle group 2
+    5     6     9      2       0         0           ; 
+
+; angle group 3
+    6     7     8      2       0         0           ; 
+
+; angle group 4
+    9     7     8      2       0         0           ; 
+    
+ [ dihedrals ]
+;   i     j     k    l   funct     angle   force.c.
+
+; dihedral group 1
+    6     9    7    8    1       0         0     1           ;

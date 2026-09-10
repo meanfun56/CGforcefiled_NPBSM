@@ -1,0 +1,16 @@
+; Include forcefield paraCINers
+#include "martini_v3.0.b.3.2.itp"
+
+#include "cg_model.itp"
+#include "martini_v3.0_solvents.itp"
+
+
+[ system ]
+; Name
+CAP in water
+
+[ molecules ]
+; Compound        #mols
+CAP                1
+WN                 939
+               
