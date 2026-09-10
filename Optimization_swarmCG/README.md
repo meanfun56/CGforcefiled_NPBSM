@@ -45,7 +45,7 @@ Each molecule folder contains the files described below. For molecule-specific f
 
 ## Note
 
-The all-atom trajectory file (`XXX-md-whole.xtc`) is not included because of its large file size (~800 MB per molecule). It is available from the corresponding author upon reasonable request.
+The all-atom trajectory file (`XXX-md-whole.xtc`) is not included because of its large file size (~800 MB per molecule). It is available from the first author upon reasonable request.
 
 ## Related manuscript
 
