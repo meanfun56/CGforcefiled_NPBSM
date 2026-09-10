@@ -1,0 +1,72 @@
+[ moleculetype ]
+; molname        nrexcl
+QUE              1
+
+
+[ atoms ]
+; id type resnr residue   atom  cgnr    charge     mass
+
+1     SN3     1     QUE    PA1  1      0.00000     54.00
+2     SN3     1     QUE    PA2  2      0.00000     54.00
+3     TC5     1     QUE    PA3  3      0.00000     36.00
+4    SN2a     1     QUE    PA1  4      0.00000     54.00
+5     N3a     1     QUE    PA2  5      0.00000     72.00
+6     TP1     1     QUE    PA3  6      0.00000     36.00
+7     SN3     1     QUE    PA1  7      0.00000     54.00
+8     SN3     1     QUE    PA1  8      0.00000     54.00
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond type 1
+    3     4       1    0.282  8530.27           ; 1
+
+; bond type 2
+    5     6       1    0.235  11626.09           ; 2
+
+; bond type 3
+    4     5       1    0.236  13208.29           ; 3
+
+; bond type 4
+    4     8       1    0.361  10183.06           ; 4
+
+; bond type 5
+    5     7       1    0.298  10311.51           ; 5
+
+; bond type 6
+    7     8       1    0.305  11613.17           ; 6
+
+; bond type 7
+    1     2       1    0.247  9796.88           ; 7
+
+; bond type 8
+    1     3       1    0.289  13878.56           ; 8
+
+; bond type 9
+    2     3       1    0.289  11391.89           ; 9
+
+
+[ angles ]
+;   i     j     k   funct     angle   force.c.
+
+; angle type 1
+    3     4     5       2    107.24    181.23           ; 1
+
+; angle type 2
+    3     4     8       2    148.15    380.12           ; 2
+
+; angle type 3
+    4     5     6       2     85.33   1156.25           ; 3
+
+; angle type 4
+    7     5     6       2    172.59   1392.78           ; 4
+
+
+[ dihedrals ]
+;   i     j     k     l   funct     dihedral   force.c.   mult.
+
+; dihedral type 1
+    4     5     7     8       2        -0.34   74.81            ; 1
+
+
