@@ -1,0 +1,68 @@
+[ moleculetype ]
+; molname        nrexcl
+IMP              1
+
+
+[ atoms ]
+; id type resnr residue   atom  cgnr    charge     mass
+
+1      C4     1     IMP    PA1  1      0.00000     72.00
+2    TN1a     1     IMP    PA2  2      0.00000     36.00
+3     SC4     1     IMP    PA3  3      0.00000     54.00
+4    SN2a     1     IMP    PA4  4      0.00000     54.00
+5     SC4     1     IMP    PA5  5      0.00000     54.00
+6     TC5     1     IMP    PA6  6      0.00000     36.00
+7    TN3a     1     IMP    PA7  7      0.00000     36.00
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond type 1
+    1     2       1    0.309  9586.47           ; 1
+
+; bond type 2
+    2     3       1    0.218  10822.12           ; 2
+
+; bond type 3
+    3     4       1    0.293  10812.88           ; 3
+
+; bond type 4
+    3     5       1    0.193  13255.96           ; 4
+
+; bond type 5
+    4     5       1    0.300  9072.35           ; 5
+
+; bond type 6
+    5     6       1    0.298  14124.26           ; 6
+
+; bond type 7
+    3     7       1    0.355  10876.08           ; 7
+
+; bond type 8
+    6     7       1    0.236  15224.60           ; 8
+
+
+[ angles ]
+;   i     j     k   funct     angle   force.c.
+
+; angle type 1
+    3     5     7       2     54.43   1045.40           ; 1
+
+; angle type 2
+    5     3     6       2     56.15    574.66           ; 2
+
+; angle type 3
+    4     5     7       2    127.36    918.32           ; 3
+
+; angle type 4
+    4     3     6       2    129.64    759.73           ; 4
+ 
+   [ dihedrals ]
+;   i     j     k    l   funct     angle   force.c.
+
+; dihedral group 1
+    5     4     3    2     1       0         0        1   ; 
+	
+
+
