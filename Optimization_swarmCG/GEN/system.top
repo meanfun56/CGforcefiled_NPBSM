@@ -1,0 +1,16 @@
+; Include forcefield paraGENers
+#include "martini_v3.0.b.3.2.itp"
+
+
+#include "cg_model.itp"
+#include "martini_v3.0_solvents.itp"
+
+[ system ]
+; Name
+GEN in water
+
+[ molecules ]
+; Compound        #mols
+GEN                1
+WN                 941
+               
