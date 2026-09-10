@@ -1,0 +1,72 @@
+[ moleculetype ]
+; molname        nrexcl
+RES                1
+
+
+[ atoms ]
+; id type   resnr  residue  atom  cgnr    charge
+
+1     SP1     1      RES      PA1   1      0.00000
+2     SP1     1      RES      PA2   2      0.00000
+3     TC5     1      RES      PA3   3      0.00000
+4     TC5     1      RES      PA4   4      0.00000
+5     TC5     1      RES      PA5   5      0.00000
+6     TC5     1      RES      PA6   6      0.00000
+7     SP1     1      RES      PA7   7      0.00000
+
+
+[ bonds ]
+;   i     j   funct      length       force
+
+; bond group 1
+    1     2       1        0           0  ; 
+
+; bond group 2
+    1     3       1        0           0  ;     
+   	
+; bond group 3
+    2     3       1        0           0 ;   
+	
+; bond group 4
+    2     4       1        0           0 ; 
+ 
+; bond group 5
+    4     5       1        0           0  ; 
+
+; bond group 6
+    5     7       1        0           0  ; 
+
+; bond group 7
+    5     6       1        0           0  ; 
+
+; bond group 8
+    6     7       1        0           0  ; 
+	
+	
+[ angles ]
+;   i     j     k       funct     angle   force.c.
+
+; angle group 1
+    2     1     3         2       0         0           ; 
+		
+; angle group 2
+    2    4     5         2       0         0           ; 
+	
+; angle group 3
+    7     5    4         2       0         0           ; 
+
+; angle group 4
+    7     6     5         2       0         0           ;
+    
+    
+    
+ [ dihedrals ]
+;   i     j     k    l   funct     angle   force.c.
+
+; dihedral group 1
+    3     1    2    4    1       0         0     1           ;  
+    
+ ; dihedral group 2
+    7     6     5    4    1       0         0     1           ;     
+    
+    
