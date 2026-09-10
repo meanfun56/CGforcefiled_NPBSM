@@ -1,0 +1,36 @@
+[ moleculetype ]
+; molname        nrexcl
+LIN               1
+
+
+[ atoms ] 
+; id type   LINnr   LINidue  atom   cgnr    charge
+
+ 1      C4     1      LIN     PA1    1      0.00000
+ 2     SP1     1      LIN     PA2    2      0.00000
+ 3     TC5     1      LIN     PA3    3      0.00000
+ 4     SC5     1      LIN     PA3    3      0.00000
+
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond group 1
+    1     2       1        0         0           ; 
+
+; bond group 2
+    2     3       1        0         0           ; 
+; bond group 3
+    3     4       1        0         0           ; 
+
+
+
+[ angles ]
+;   i     j     k    funct     angle   force.c.
+
+; angle group 1
+    1     2     3      2       0         0           ; 
+
+; angle group 2
+    2     3     4      2       0         0           ;
