@@ -1,0 +1,16 @@
+; Include forcefield parameters
+#include "martini_v3.0.b.3.2.itp"
+#include "martini_v3.0_solvents.itp"
+#include "martini_v3.0_phospholipids.itp"
+#include "cg_model.itp"
+
+
+[ system ]
+; Name
+PUE in water
+
+[ molecules ]
+; Compound        #mols
+PUE                1
+WN                 940
+               
