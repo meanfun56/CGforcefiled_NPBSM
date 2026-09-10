@@ -1,0 +1,23 @@
+[ moleculetype ]
+; molname        nrexcl
+CIT              1
+
+
+[ atoms ]
+; id type resnr residue   atom  cgnr    charge     mass
+
+1      Na     1     CIT    PA1  1      0.00000     72.00
+2      C3     1     CIT    PA2  2      0.00000     72.00
+3      C3     1     CIT    PA3  3      0.00000     72.00
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond type 1
+    1     2       1    0.309  12129.35           ; 1
+
+; bond type 2
+    2     3       1    0.436  2164.01           ; 2
+
+

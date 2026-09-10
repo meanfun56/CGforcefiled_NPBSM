@@ -1,0 +1,29 @@
+[ moleculetype ]
+; molname        nrexcl
+CIT               1
+
+
+[ atoms ] 
+; id type   resnr   residue  atom   cgnr    charge
+
+ 1      Na     1      CIT     PA1    1      0.00000
+ 2      C3     1      CIT     PA2    2      0.00000
+ 3      C3     1      CIT     PA3    3      0.00000
+
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond group 1
+    1     2       1        0         0           ; 
+
+; bond group 2
+    2     3       1        0         0           ; 
+
+  [ angles ]
+;   i     j     k   funct     angle   force.c.
+
+; angle type 1
+    1     2     3       2     0   0          ; 1
+                
