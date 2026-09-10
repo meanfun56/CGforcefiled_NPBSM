@@ -1,0 +1,91 @@
+[ moleculetype ]
+; molname        nrexcl
+GPD               1
+
+
+[ atoms ]
+; id type   resnr  residue  atom  cgnr    charge
+
+1      P3     1      GPD     PA1   1      0.00000
+2      P3     1      GPD     PA2   2      0.00000
+3     SP1     1      GPD     PA3   3      0.00000
+4     N3a     1      GPD     PA4   4      0.00000
+5     SN2     1      GPD     PA5   5      0.00000
+6     SC3     1      GPD     PA6   6      0.00000
+7     TC5     1      GPD     PA7   7      0.00000
+8     N2a     1      GPD     PA8   8      0.00000
+
+
+[ bonds ]
+;   i     j     funct    length   force.c.
+
+; bond group 1
+    7     8       1        0         0           ; B1
+
+; bond group 2
+    3     4       1        0         0           ; B2
+
+; bond group 3
+    4     7       1        0         0           ; B3     
+    
+; bond group 4                                            
+    7     6       1        0         0           ; B4 
+
+; bond group 5
+    5     6       1        0         0           ; B3     
+    
+; bond group 6                                            
+    4     5       1        0         0           ; B4 
+	
+; bond group 7
+    4     6       1        0         0           ; C1
+
+; bond group 8
+    5     7       1        0        0            ; C2
+  
+; bond group 9
+    1     2       1        0        0        ; C1
+
+; bond group 10
+    1     3       1        0        0            ; C2
+  
+; bond group 11
+    2     3       1        0        0           ; C2
+
+
+[ angles ]
+
+;   i     j     k        funct   angle   force.c.
+
+; angle group 1
+    1     3     4          2       0         0           ; 
+
+; angle group 2
+    2     3     4          2       0         0           ;
+	
+; angle group 3
+    3     4     5          2       0         0           ; 
+
+; angle group 4
+    3     4     7          2       0         0           ;
+	
+; angle group 5
+    4     7     8          2       0         0           ;
+
+; angle group 6
+    6     7     8          2       0         0           ;
+
+  
+[ dihedrals ]
+
+;   i     j     k     l   funct   angle   force.c.
+
+; dihedral group 1
+    3     4     7     8     1       0         0       1    ; 
+
+; dihedral group 2
+    1     2     3     4     1       0         0       1  ;
+
+; dihedral group 3
+    8     7     6     4     1       0         0       1    ;
+

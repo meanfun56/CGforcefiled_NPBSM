@@ -1,0 +1,90 @@
+[ moleculetype ]
+; molname        nrexcl
+GPD              1
+
+
+[ atoms ]
+; id type resnr residue   atom  cgnr    charge     mass
+
+1      P3     1     GPD    PA1  1      0.00000     72.00
+2      P3     1     GPD    PA2  2      0.00000     72.00
+3     SP1     1     GPD    PA3  3      0.00000     54.00
+4     N3a     1     GPD    PA4  4      0.00000     72.00
+5     SN2     1     GPD    PA5  5      0.00000     54.00
+6     SC3     1     GPD    PA6  6      0.00000     54.00
+7     TC5     1     GPD    PA7  7      0.00000     36.00
+8     N2a     1     GPD    PA8  8      0.00000     72.00
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond type 1
+    7     8       1    0.267  9041.67           ; 1
+
+; bond type 2
+    3     4       1    0.307  11974.61           ; 2
+
+; bond type 3
+    4     7       1    0.250  10822.80           ; 3
+
+; bond type 4
+    7     6       1    0.275  8222.07           ; 4
+
+; bond type 5
+    5     6       1    0.308  8603.40           ; 5
+
+; bond type 6
+    4     5       1    0.329  7597.93           ; 6
+
+; bond type 7
+    4     6       1    0.326  7783.39           ; 7
+
+; bond type 8
+    5     7       1    0.500  11613.27           ; 8
+
+; bond type 9
+    1     2       1    0.325  9537.07           ; 9
+
+; bond type 10
+    1     3       1    0.389  9919.22           ; 10
+
+; bond type 11
+    2     3       1    0.291  8954.89           ; 11
+
+
+[ angles ]
+;   i     j     k   funct     angle   force.c.
+
+; angle type 1
+    1     3     4       2     81.59    245.84           ; 1
+
+; angle type 2
+    2     3     4       2    151.42    309.38           ; 2
+
+; angle type 3
+    3     4     5       2    112.70     27.12           ; 3
+
+; angle type 4
+    3     4     7       2    136.97     65.19           ; 4
+
+; angle type 5
+    4     7     8       2    165.39    456.60           ; 5
+
+; angle type 6
+    6     7     8       2     96.58    509.36           ; 6
+
+
+[ dihedrals ]
+;   i     j     k     l   funct     dihedral   force.c.   mult.
+
+; dihedral type 1
+    3     4     7     8       1      -115.15   -3.99       1     ; 1
+
+; dihedral type 2
+    1     2     3     4       1        -0.06   -2.97       1     ; 2
+
+; dihedral type 3
+    8     7     6     4       1      -120.74   -3.33       1     ; 3
+
+
