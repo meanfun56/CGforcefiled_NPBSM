@@ -1,0 +1,44 @@
+[ moleculetype ]
+; molname        nrexcl
+BOR               1
+
+
+[ atoms ] 
+; id type   BORnr   BORidue  atom   cgnr    charge
+
+ 1     SN3     1      BOR     PA1    1      0.00000
+ 2     TC3     1      BOR     PA2    2      0.00000
+ 3     SC3     1      BOR     PA3    3      0.00000
+ 4     SC3     1      BOR     PA4    4      0.00000
+
+
+[ constraints ]
+;   i     j   funct   length   
+
+; constraint group 1
+    1     2       1        0                    ; 
+
+; constraint group 1
+    2     3       1        0                    ; 
+	
+; constraint group 1
+    3     4       1        0                   ; 
+	
+; constraint group 1
+    2     4       1        0                    ; 
+
+
+[ angles ]
+;   i     j     k    funct     angle   force.c.
+
+; angle group 1
+    4     2     3      2       0         0           ; 
+
+; angle group 2
+    1     3     2      2       0         0           ;
+
+; angle group 1
+    2     4     3      2       0         0           ; 
+
+; angle group 2
+    2     1     3      2       0         0           ;
