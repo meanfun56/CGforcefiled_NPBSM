@@ -1,0 +1,16 @@
+; Include forcefield paraMAGers
+#include "martini_v3.0.b.3.2.itp"
+#include "martini_v3.0_solvents.itp"
+#include "martini_v3.0_phospholipids.itp"
+#include "cg_model.itp"
+
+
+[ system ]
+; Name
+MAG in water
+
+[ molecules ]
+; Compound        #mols
+MAG                1
+WN                 941
+               
