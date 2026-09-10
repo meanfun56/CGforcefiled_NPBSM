@@ -1,0 +1,48 @@
+[ moleculetype ]
+; molname        nrexcl
+TPN              1
+
+
+[ atoms ]
+; id type resnr residue   atom  cgnr    charge     mass
+
+1     SC5     1     TPN    PA1  1      0.00000     54.00
+2     TC3     1     TPN    PA2  2      0.00000     36.00
+3     SP1     1     TPN    PA3  3      0.00000     54.00
+4     SC2     1     TPN    PA4  4      0.00000     54.00
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond type 1
+    1     2       1    0.246  13712.74           ; 1
+
+; bond type 2
+    1     3       1    0.316  11547.61           ; 2
+
+; bond type 3
+    2     3       1    0.213  9331.03           ; 3
+
+; bond type 4
+    3     4       1    0.243  13377.85           ; 4
+
+
+[ angles ]
+;   i     j     k   funct     angle   force.c.
+
+; angle type 1
+    1     3     4       2    133.76    332.06           ; 1
+
+; angle type 2
+    2     3     4       2    104.74    404.23           ; 2
+
+; angle type 3
+    2    1     3       2    104.74    404.23           ; 3
+    
+ 
+[ dihedrals ]
+;   i     j     k    l   funct     angle   force.c.
+
+; dihedral group 1
+    1     2    3    4    1       0         0     1           ; 

@@ -1,0 +1,15 @@
+; Include forcefield parameters
+#include "martini_v3.0.b.3.2.itp"
+#include "cg_model.itp"
+#include "martini_v3.0_solvents.itp"
+
+
+[ system ]
+; Name
+TPN in water
+
+[ molecules ]
+; Compound        #mols
+TPN                1
+WN                 942
+               
