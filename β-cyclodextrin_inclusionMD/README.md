@@ -1,4 +1,4 @@
-β-CD Inclusion Molecular Dynamics Simulations
+# β-CD Inclusion Molecular Dynamics Simulations
 
 This folder contains the molecular dynamics (MD) simulation data for the inclusion of two natural product-derived drugs, ferulic acid (FER) and osthole (OST), into β-cyclodextrin (β-CD).
 
