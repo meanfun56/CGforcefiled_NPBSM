@@ -47,7 +47,7 @@ whole.xtc — Partial trajectory in GROMACS compressed .xtc format, used for the
 
 These simulations were performed to investigate the inclusion behavior of FER and OST with β-CD and to calculate the inclusion efficiency. The results from the three replicates were averaged to obtain the mean ± standard deviation reported in Table 5 of the main manuscript.
 
-Related manuscript
+## Related manuscript
 These data support the findings in:
 
 Yan et al., Coarse-Grained Force Field Parameters for Natural Product-Based Small Molecules: From Structural Mapping to Pharmaceutical Applications.
