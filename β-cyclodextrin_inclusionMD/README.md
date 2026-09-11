@@ -24,19 +24,19 @@ b-CD_inclusionMD/
     │   └── ...
     └── 3/
         └── ...
+```
 Each drug–β-CD system (FER-b-CD and OST-b-CD) contains three independent replicate simulations, numbered 1, 2, and 3.
-File description
+
+## File description
 Each replicate folder contains the following GROMACS output files:
 
-File description
-Each replicate folder contains the following GROMACS output files:
-
-File	Description
-md.gro	Final configuration of the simulation.
-md.log	GROMACS log file containing energy, temperature, pressure, and other runtime information.
-md.tpr	GROMACS run input file (topology + parameters) used for the simulation.
-whole.xtc	Partial trajectory used for analysis.
-Note
+| File | Description |
+|------|-------------|
+| `md.gro` | Final configuration of the simulation. |
+| `md.log` | GROMACS log file containing energy, temperature, pressure, and other runtime information. |
+| `md.tpr` | GROMACS run input file (topology + parameters) used for the simulation. |
+| `whole.xtc` | Partial trajectory used for analysis. |
+## Note
 md.gro — Final structure file in GROMACS .gro format, containing the coordinates of all atoms (or CG beads) at the end of the simulation, as well as the box dimensions. It can be used to visualize the final configuration.
 
 md.log — GROMACS log file recording runtime information such as energies, temperature, pressure, density, and any warnings or errors. Useful for checking simulation stability and convergence.
