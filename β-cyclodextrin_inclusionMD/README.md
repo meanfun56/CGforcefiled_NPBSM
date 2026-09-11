@@ -50,4 +50,4 @@ These simulations were performed to investigate the inclusion behavior of FER an
 ## Related manuscript
 These data support the findings in:
 
-> Yan et al., Coarse-Grained Force Field Parameters for Natural Product-Based Small Molecules: From Structural Mapping to Pharmaceutical Applications.
+> Yan et al., *Coarse-Grained Force Field Parameters for Natural Product-Based Small Molecules: From Structural Mapping to Pharmaceutical Applications*.
