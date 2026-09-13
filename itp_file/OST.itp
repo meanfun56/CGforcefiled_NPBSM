@@ -1,0 +1,61 @@
+[ moleculetype ]
+; molname        nrexcl
+OST              1
+
+
+[ atoms ]
+; id type resnr residue   atom  cgnr    charge     mass
+
+1      C4     1     OST    PA1  1      0.00000     72.00
+2     SC5     1     OST    PA2  2      0.00000     54.00
+3    TN1a     1     OST    PA3  3      0.00000     36.00
+4     SC5     1     OST    PA4  4      0.00000     54.00
+5     TC5     1     OST    PA5  5      0.00000     36.00
+6    SN2a     1     OST    PA6  6      0.00000     54.00
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond type 1
+    1     2       1    0.358  16699.91           ; 1
+
+; bond type 2
+    2     3       1    0.289  11965.70           ; 2
+
+; bond type 3
+    2     4       1    0.194  10344.83           ; 3
+
+; bond type 4
+    4     5       1    0.314  11064.71           ; 4
+
+; bond type 5
+    5     6       1    0.236  9037.00           ; 5
+
+; bond type 6
+    2     6       1    0.352  11395.77           ; 6
+
+
+[ angles ]
+;   i     j     k   funct     angle   force.c.
+
+; angle type 1
+    1     2     4       2    144.85    129.88           ; 1
+
+; angle type 2
+    1     2     6       2     85.69     48.81           ; 2
+
+; angle type 3
+    3     2     4       2     94.57    710.12           ; 3
+
+; angle type 4
+    3     2     6       2    166.46     99.23           ; 4
+
+
+[ dihedrals ]
+;   i     j     k     l   funct     dihedral   force.c.   mult.
+
+; dihedral type 1
+    2     4     6     5       2        -0.80   -5.50            ; 1
+
+

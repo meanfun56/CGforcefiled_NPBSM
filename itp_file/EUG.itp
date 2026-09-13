@@ -1,0 +1,64 @@
+[ moleculetype ]
+; molname        nrexcl
+EUG              1
+
+
+[ atoms ]
+; id type resnr residue   atom  cgnr    charge     mass
+
+1     SC4     1     EUG    PA1  1      0.00000     54.00
+2     TC5     1     EUG    PA2  2      0.00000     36.00
+3     TC5     1     EUG    PA3  3      0.00000     36.00
+4    TN1a     1     EUG    PA4  4      0.00000     36.00
+5     SN3     1     EUG    PA5  5      0.00000     54.00
+
+
+[ constraints ]
+;   i     j   funct   length
+
+; constraint type 1
+    2     3       1    0.214      ; 1
+
+; constraint type 2
+    3     5       1    0.246      ; 2
+
+; constraint type 3
+    2     5       1    0.278      ; 3
+
+
+[ bonds ]
+;   i     j   funct   length   force.c.
+
+; bond type 1
+    1     2       1    0.288  13954.42           ; 1
+
+; bond type 2
+    3     4       1    0.206  10610.92           ; 2
+
+
+[ angles ]
+;   i     j     k   funct     angle   force.c.
+
+; angle type 1
+    1     2     3       2     97.02    174.90           ; 1
+
+; angle type 2
+    1     2     5       2    151.52    230.46           ; 2
+
+; angle type 3
+    4     3     2       2    157.21    879.68           ; 3
+
+; angle type 4
+    4     3     5       2     83.90    500.06           ; 4
+
+
+[ dihedrals ]
+;   i     j     k     l   funct     dihedral   force.c.   mult.
+
+; dihedral type 1
+    4     3     2     1       1       124.55   -1.05       1     ; 1
+
+; dihedral type 2
+    2     3     4     5       1        35.28   -8.56       1     ; 2
+
+
