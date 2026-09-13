@@ -39,4 +39,4 @@ FER 1
 ## Related manuscript
 These parameter files support the findings in:
 
-> Yan et al., Coarse-Grained Force Field Parameters for Natural Product-Based Small Molecules: From Structural Mapping to Pharmaceutical Applications.
+>  Yan et al., Coarse-Grained Force Field Parameters for Natural Product-Based Small Molecules: From Structural Mapping to Pharmaceutical Applications.
